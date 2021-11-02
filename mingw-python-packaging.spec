@@ -4,8 +4,8 @@
 
 Name:           mingw-python-%{pypi_name}
 Summary:        MinGW Python packaging core utils
-Version:        21.0
-Release:        2%{?dist}
+Version:        21.2
+Release:        1%{?dist}
 BuildArch:      noarch
 
 License:        BSD or ASL 2.0
@@ -68,6 +68,9 @@ MinGW Python 3 packaging core utils.
 
 
 %changelog
+* Tue Nov 02 2021 Sandro Mani <manisandro@gmail.com> - 21.2-1
+- Update to 21.2
+
 * Mon Sep 20 2021 Sandro Mani <manisandro@gmail.com> - 21.0-2
 - Also include LICENSE in %%license
 - Require: mingw-python-pyparsing
