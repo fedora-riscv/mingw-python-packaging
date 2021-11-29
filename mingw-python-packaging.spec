@@ -4,7 +4,7 @@
 
 Name:           mingw-python-%{pypi_name}
 Summary:        MinGW Python packaging core utils
-Version:        21.2
+Version:        21.3
 Release:        1%{?dist}
 BuildArch:      noarch
 
@@ -68,6 +68,9 @@ MinGW Python 3 packaging core utils.
 
 
 %changelog
+* Mon Nov 29 2021 Sandro Mani <manisandro@gmail.com> - 21.3-1
+- Update to 21.3
+
 * Tue Nov 02 2021 Sandro Mani <manisandro@gmail.com> - 21.2-1
 - Update to 21.2
 
