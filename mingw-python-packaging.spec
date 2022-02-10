@@ -5,7 +5,7 @@
 Name:           mingw-python-%{pypi_name}
 Summary:        MinGW Python packaging core utils
 Version:        21.3
-Release:        2%{?dist}
+Release:        3%{?dist}
 BuildArch:      noarch
 
 License:        BSD or ASL 2.0
@@ -68,6 +68,9 @@ MinGW Python 3 packaging core utils.
 
 
 %changelog
+* Thu Feb 10 2022 Sandro Mani <manisandro@gmail.com> - 21.3-3
+- Rebuild for new python dependency generator
+
 * Thu Jan 20 2022 Fedora Release Engineering <releng@fedoraproject.org> - 21.3-2
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_36_Mass_Rebuild
 
